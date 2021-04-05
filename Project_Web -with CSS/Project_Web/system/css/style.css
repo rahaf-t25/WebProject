@@ -1,0 +1,325 @@
+
+body
+{
+	background-color: rgba(247, 249, 255, 0.87);
+	background-image: linear-gradient(115deg,
+	rgba(58, 58, 158, 0.8),
+	rgba(136, 136, 206, 0.5)),url(https://image.freepik.com/free-vector/math-background_23-2148146940.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	color: #f1f1f1;
+	text-align: center;
+	font-family: courier;
+}
+h1{
+	text-align: center;
+}
+
+form { /* the dark box surrounding the form*/
+	background: #32295e;
+	padding: 2.5rem 0.625rem;
+	border-radius: 0.25rem;
+	opacity: 0.95;
+	margin: 15px;
+	
+  }
+
+
+.imgc{
+    width: 250px;
+    height: 60px;
+}
+
+
+
+
+.boxed {
+    padding: 50px;
+}
+.button {
+    background-color: #23aa4c;
+    font-size: 26px;
+	border-radius: 8px;
+	margin: 15px 15px 15px 15px;
+	width: 20%;
+	font-family: courier;
+	font-weight: bold;
+}
+
+.button:hover{
+    background-color: #1f9944;
+}
+
+.equation {
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.hint {
+    color: red;
+    font-weight: bold;
+}
+
+#main-wrapper{
+	border-radius : 10px;
+	background-color: #e5e5e5;
+	border: 3px solid #e5e5e5;
+	width: 500px;
+	margin: 0 auto;
+	color: black;
+}
+img.quizimage
+{
+	width: 30%;
+	/* height: 50%; */
+    border-radius: 50%;
+}
+
+.myform
+{
+	width:450px;
+	margin:0 auto;
+}
+
+.inputevalues
+{
+	width: 450px;
+	margin: 0 auto;
+	padding: 5px;
+	margin-bottom: 9px;
+}
+
+#reg_btn {
+    background-color: #23aa4c;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#reg_btn:hover{
+background-color: #1f9944;
+}
+
+#login_btn
+{
+	background-color: #3498db;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#login_btn:hover{
+	background-color:#2e88c5;
+}
+
+#signin_btn
+{
+	background-color: #4CAF50;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+#signin_btn:hover{
+	background-color: #449d48;
+}
+
+#back_btn
+{
+	margin-top:10px;
+	color: white;
+	margin-bottom:15px;
+    padding: 10px;
+    background-color: #e67e22;
+	cursor: pointer;
+
+}
+
+#back_btn:hover{
+background-color: #cf711e;
+}
+
+input[type=text]:focus {
+    
+    border: 3px solid green;
+}
+
+input[type=email]:focus {
+    
+    border: 3px solid green;
+}
+
+input[type=password]:focus {
+    
+    border: 3px solid green;
+}
+
+#errors{
+    margin-bottom: 90px;
+    font-size: small;
+    color: red;
+}
+
+.logout_button{
+	background-color: #c0392b;
+	font-family: courier;
+	color: white;
+	border-radius: 8px;
+	margin: 15px 15px 15px 15px;
+    padding:10px;
+    width: 98%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.history_button{
+	background-color: #dad550;
+	font-family: courier;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 98%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 15px 15px 0px 15px;
+	border-radius: 8px;
+}
+
+#lesson1_btn
+{
+	background-color:#23aa4c;
+	font-family: courier;
+    color: white;
+	/* margin-top:10px; */  
+	border-radius: 8px;
+    padding:10px;
+    width: 98%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 15px 15px 0px 15px;
+}
+
+#lesson2_btn
+{
+	background-color: #1f57ac;
+	font-family: courier;
+    color: white;
+	/* margin-top:10px; */
+	border-radius: 8px;
+    padding:10px;
+	width: 98%;
+	margin: 0px 15px 0px 15px;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#lesson3_btn
+{
+	background-color: #e67e22;
+	font-family: courier;
+    color: white;
+	/* margin-top:10px; */
+	border-radius: 8px;
+    padding:10px;
+	width: 98%;
+	margin: 0px 15px 0px 15px;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+#lesson1_btn:hover{
+	background-color: #1f9944;
+
+}
+#lesson2_btn:hover{
+	background-color: #1b4e9a;
+
+}
+#lesson3_btn:hover{
+	background-color: #cf711e;
+
+}
+.logout_button:hover {
+	background-color: #ac3326;
+}
+.history_button:hover{
+	background-color: #c4bf48;
+}
+
+
+.score-box {
+	margin-left: 48%;
+}
+
+.Cscore {
+	padding: 50px;
+	font-size: 20px;
+	background-color: #cf711e;
+	border-radius: 50%;
+	color: black;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	position: relative;
+	right: 48px;
+}
+
+
+.score-box ul {
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+	margin-left: 60px;
+	font-size: 16px;
+	color: black;
+}
+
+.quiz-box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	text-align: center;
+}
+
+.quiz h1 {
+	color: white;
+}
+
+.quiz p {
+	margin-left: 138px;
+	align-self: center;
+	padding: 50px;
+	font-size: 20px;
+	background-color: #c4bf48;
+	border-radius: 50%;
+	color: black;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+

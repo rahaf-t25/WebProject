@@ -1,0 +1,191 @@
+
+body
+{
+	background-color: rgba(247, 249, 255, 0.87);
+}
+h1{
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+
+.imgc{
+    width: 250px;
+    height: 60px;
+}
+
+
+
+
+.boxed {
+    padding: 50px;
+}
+.button {
+    background-color: #555555;
+    font-size: 26px;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: #4caf50;
+}
+
+.equation {
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.hint {
+    color: red;
+    font-weight: bold;
+}
+
+#main-wrapper{
+	border-radius : 10px;
+	background-color: white;
+	border: 3px solid #f1f1f1;
+	width: 500px;
+	margin: 0 auto;
+}
+img.quizimage
+{
+	width: 30%;
+	/* height: 50%; */
+    border-radius: 50%;
+}
+
+.myform
+{
+	width:450px;
+	margin:0 auto;
+}
+
+.inputevalues
+{
+	width: 450px;
+	margin: 0 auto;
+	padding: 5px;
+	margin-bottom: 9px;
+}
+
+#reg_btn {
+    background-color: #4CAF50;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#login_btn
+{
+	background-color: #3498db;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#signin_btn
+{
+	background-color: #4CAF50;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+#back_btn
+{
+	margin-top:10px;
+	color: white;
+	margin-bottom:15px;
+    padding: 10px;
+    background-color: #e67e22;
+	cursor: pointer;
+
+}
+
+input[type=text]:focus {
+    
+    border: 3px solid green;
+}
+
+input[type=email]:focus {
+    
+    border: 3px solid green;
+}
+
+input[type=password]:focus {
+    
+    border: 3px solid green;
+}
+
+#errors{
+    margin-bottom: 90px;
+    font-size: small;
+    color: red;
+}
+
+.logout_button{
+	background-color: #c0392b;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+#lesson1_btn
+{
+	background-color:#23aa4c;
+    color: white;
+	/* margin-top:10px; */  
+	
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#lesson2_btn
+{
+	background-color: #1f57ac;
+    color: white;
+	/* margin-top:10px; */
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#lesson3_btn
+{
+	background-color: #e67e22;
+    color: white;
+	/* margin-top:10px; */
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+
+
